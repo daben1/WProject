@@ -1,0 +1,16 @@
+﻿Name: Demo1
+AntiForgery: enabled
+Author: ChunSun
+Website: http://127.0.0.1
+Version: 1.0
+OrchardVersion: 1.9
+Description: 模块说明. 
+FeatureDescription: 一个简单的 Demo.
+Dependencies: 
+Category: Default
+Features:
+    Orchard.Blogs.RemotePublishing:
+        Name: Remote Blog Publishing
+        Description: Blog easier using a dedicated MetaWeblogAPI-compatible publishing tool.
+        Dependencies: XmlRpc, Orchard.Autoroute, Orchard.ContentPicker
+        Category: Content Publishing
